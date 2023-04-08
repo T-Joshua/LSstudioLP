@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(226, 214, 190);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 60px;
+  background-color: whitesmoke;
+  text-transform: uppercase;
+}
+
+.divtag {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  flex: 1;
+  font-size: 15px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  flex: 3;
+  text-align: center;
+  font-size: 30px;
+}
+
+.small {
+  font-size: 8px;
+  margin-top: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.divtag2 {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  font-size: 15px;
+}
+
+.divtag2 button {
+  border: none;
+  text-decoration-line: underline;
+  background-color: white;
+  cursor: pointer;
+}
+
+.img1 {
+  height: calc(100vh - 60px);
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(bg.jpg);
+  background-size: cover;
+
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.i {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 10%;
+  margin-bottom: 15px;
+}
+
+.img1 p {
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 50vh;
+  margin: 5px 10%;
+  width: 80%;
+  padding-top: 100px;
+}
+
+.left-container1 {
+  width: 65%;
+  background-color: rgb(226, 214, 190);
+  padding: 0 0;
+}
+
+.bid {
+  font-size: 35px;
+  font-weight: 200;
+  padding-bottom: 15px;
+}
+
+.info {
+  font-size: 15px;
+}
+
+.infop {
+  padding-top: 10px;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 25%;
+  padding-top: 20px;
+}
+
+.button {
+  padding-top: 15px;
+}
+
+.button button {
+  background-color: wheat;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+.right-container1 {
+  width: 33%;
+  background-color: rgb(226, 214, 190);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.right-cont-text {
+  text-align: center;
+  margin-top: 30%;
+  color: white;
+}
+
+.right-cont-text p {
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  min-height: 50vh;
+  margin: 5px 10%;
+  width: 80%;
+  padding-top: 100px;
+}
+
+.left-container2 {
+  width: 33%;
+  background-color: wheat;
+  background-color: rgb(226, 214, 190);
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.right-container2 {
+  width: 65%;
+  padding: 0 0;
+  background-color: rgb(226, 214, 190);
+}
+
+.mp {
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.bwd {
+  font-size: 35px;
+  font-weight: 200;
+  padding-bottom: 15px;
+}
+
+.info2 {
+  font-size: 15px;
+}
+
+.info2p {
+  padding-top: 10px;
+}
+
+.ul2 {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 25%;
+  padding-top: 20px;
+}
+
+.button2 {
+  padding-top: 15px;
+}
+
+.button2 button {
+  background-color: wheat;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  min-height: 50vh;
+  margin: 5px 10%;
+  width: 80%;
+  padding-top: 100px;
+}
+
+.left-container3 {
+  width: 60%;
+  background-color: rgb(226, 214, 190);
+  padding: 5% 0;
+}
+
+.nf2 {
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.hd {
+  font-size: 35px;
+  font-weight: 200;
+  padding-bottom: 15px;
+}
+
+.info3 {
+  font-size: 15px;
+}
+
+.info3p {
+  padding-top: 10px;
+}
+
+.button3 {
+  padding-top: 15px;
+}
+
+.button3 button {
+  background-color: wheat;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+.right-container3 {
+  width: 38%;
+  background-color: rgb(226, 214, 190);
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
